@@ -1,4 +1,4 @@
-package com.simplilearn.ReviewAnalyser;
+package com.simplilearn.ReviewAnalyzer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +15,7 @@ public class ReviewAnalyzerApplication {
    	  return count;
     }
     public static void main(String[] args) {
-   	 SpringApplication.run(ReviewAnalyserApplication.class, args);
+   	 SpringApplication.run(ReviewAnalyzerApplication.class, args);
     }
 }
 
